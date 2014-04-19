@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Landscape-F</title>
+  <title>Landscape-F | Landscape-F</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="og:type" content="blog">
-<meta name="og:title">
-<meta name="og:url" content="http://howiefh.github.io/hexo-theme-landscape-f/">
+<meta name="og:title" content="Landscape-F">
+<meta name="og:url" content="http://howiefh.github.io/hexo-theme-landscape-f/2014/04/19/landscape-f/">
 <meta name="og:image">
 <meta name="og:site_name" content="Landscape-F">
-<meta name="og:description" content="hexo theme Landscape-F">
+<meta name="og:description" content="Landscape-F">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Landscape-F" type="application/atom+xml">
@@ -66,9 +66,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-landscape-f" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-landscape-f" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     
 <a href="/hexo-theme-landscape-f/2014/04/19/landscape-f/" class="article-date">
@@ -88,8 +86,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/hexo-theme-landscape-f/2014/04/19/landscape-f/">Landscape-F</a>
+    <h1 class="article-title" itemprop="name">
+      Landscape-F
     </h1>
   
 
@@ -97,28 +95,228 @@
     
     <div class="article-entry" itemprop="articleBody">
       
+		
+		<div id="toc" class="toc-article">
+			<h2 class="toc-title"><span>Contents</span></h2>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Landscape-F"><span class="toc-number">1.</span> <span class="toc-text">Landscape-F</span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Installation"><span class="toc-number">1.1.</span> <span class="toc-text">Installation</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Install"><span class="toc-number">1.1.1.</span> <span class="toc-text">Install</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Enable"><span class="toc-number">1.1.2.</span> <span class="toc-text">Enable</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Update"><span class="toc-number">1.1.3.</span> <span class="toc-text">Update</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#Configuration"><span class="toc-number">1.2.</span> <span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Features"><span class="toc-number">1.3.</span> <span class="toc-text">Features</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Fancybox"><span class="toc-number">1.3.1.</span> <span class="toc-text">Fancybox</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Sidebar"><span class="toc-number">1.3.2.</span> <span class="toc-text">Sidebar</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#Development"><span class="toc-number">1.4.</span> <span class="toc-text">Development</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Requirements"><span class="toc-number">1.4.1.</span> <span class="toc-text">Requirements</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Grunt_tasks"><span class="toc-number">1.4.2.</span> <span class="toc-text">Grunt tasks</span></a></li></ol>
+		
+		</div>
+		
         <h1 id="Landscape-F">Landscape-F</h1>
 <p>A theme based on <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a>‘s default theme <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">Landscape</a>.</p>
 <ul>
 <li><a href="http://howiefh.github.io/hexo-theme-landscape-f/">Preview</a></li>
 </ul>
-<p>
-        
-          <p class="article-more-link">
-            <a href="/hexo-theme-landscape-f/2014/04/19/landscape-f/#more">Read More</a>
-          </p>
-        
+<p><a id="more"></a></p>
+<h2 id="Installation">Installation</h2>
+<h3 id="Install">Install</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ git clone https://github.com/howiefh/hexo-theme-landscape-f.git themes/landscape<span class="operator">-f</span>
+</pre></td></tr></table></figure>
+
+<p><strong>Landscape-F requires Hexo 2.4 and above.</strong></p>
+<h3 id="Enable">Enable</h3>
+<p>Modify <code>theme</code> setting in <code>_config.yml</code> to <code>landscape-f</code>.</p>
+<h3 id="Update">Update</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre><span class="built_in">cd</span> themes/landscape<span class="operator">-f</span>
+git pull
+</pre></td></tr></table></figure>
+
+<h2 id="Configuration">Configuration</h2>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+</pre></td><td class="code"><pre><span class="comment"># Header</span>
+<span class="title">menu:</span>
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+github: https://github.com/howiefh
+
+<span class="comment"># Content</span>
+excerpt_link: Read More
+fancybox: true
+
+<span class="comment"># Sidebar</span>
+sidebar: right
+<span class="title">widgets:</span>
+- about_me
+- category
+- tag
+- tagcloud
+- archive
+- calendar
+- recent_posts
+- duoshuo_recent_comments
+- links
+
+<span class="comment"># Miscellaneous</span>
+<span class="title">google_analytics:</span>
+favicon: /favicon.ico
+<span class="title">twitter:</span>
+<span class="title">google_plus:</span>
+<span class="title">fb_admins:</span>
+<span class="title">fb_app_id:
+</span>
+<span class="comment"># Toc</span>
+<span class="title">toc:</span>
+  article: true   <span class="comment">## show contents in article.</span>
+  aside: true     <span class="comment">## show contents in aside.</span>
+
+<span class="comment"># Scroll to top</span>
+go_top: true
+
+<span class="comment"># duoshuo</span>
+<span class="title">duoshuo_shortname: 
+</span>
+<span class="comment"># baidu share</span>
+baidushare: true
+
+<span class="comment"># blogroll</span>
+<span class="title">links:</span>
+- name: 404 page
+  link: http://yibo.iyiyun.com/js/yibo404/key/1
+
+<span class="comment"># about me</span>
+<span class="title">about_me:</span>
+  title: ABOUT ME
+  gravatar: a@abc.com
+  avatar: /images/github.jpg
+  texts:
+  - Hi,I'm howiefh.
+
+<span class="comment"># display updated</span>
+display_updated: true
+</pre></td></tr></table></figure>
+
+<ul>
+<li><strong>menu</strong> - Navigation menu</li>
+<li><strong>rss</strong> - RSS link</li>
+<li><strong>github</strong> - Github link</li>
+<li><strong>excerpt_link</strong> - “Read More” link at the bottom of excerpted articles. <code>false</code> to hide the link.</li>
+<li><strong>fancybox</strong> - Enable <a href="http://fancyapps.com/fancybox/" target="_blank">Fancybox</a></li>
+<li><strong>sidebar</strong> - Sidebar style. You can choose <code>left</code>, <code>right</code>, <code>bottom</code> or <code>false</code>.</li>
+<li><strong>widgets</strong> - Widgets displaying in sidebar</li>
+<li><strong>google_analytics</strong> - Google Analytics ID</li>
+<li><strong>favicon</strong> - Favicon path</li>
+<li><strong>twitter</strong> - Twiiter ID</li>
+<li><strong>google_plus</strong> - Google+ ID</li>
+<li><strong>toc</strong> - Show toc in article or sidebar</li>
+<li><strong>go_top</strong> - Go to top</li>
+<li><strong>duoshuo_shortname</strong> - Duoshuo shortname</li>
+<li><strong>baidushare</strong> - Show baidu share in post</li>
+<li><strong>links</strong> - Links displaying in sidebar</li>
+<li><strong>about_me</strong> - About me displaying in sidebar. The gravatar is your gravatar e-mail. You can choose gravatar or avatar to show your picture. </li>
+<li><strong>display_updated</strong> - Display updated in article footer</li>
+</ul>
+<h2 id="Features">Features</h2>
+<h3 id="Fancybox">Fancybox</h3>
+<p>Landscape-F uses <a href="http://fancyapps.com/fancybox/" target="_blank">Fancybox</a> to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>![<span class="link_label">img caption</span>](<span class="link_url">img url</span>)
+
+<span class="xml"><span class="tag">&lt;<span class="title">notextile</span>&gt;</span></span>0<span class="xml"><span class="tag">&lt;/<span class="title">notextile</span>&gt;</span></span>
+</pre></td></tr></table></figure>
+
+<h3 id="Sidebar">Sidebar</h3>
+<p>You can put your sidebar in left side, right side or bottom of your site by editing <code>sidebar</code> setting.</p>
+<p>Landscape-F provides 9 built-in widgets:</p>
+<ul>
+<li>category</li>
+<li>tag</li>
+<li>tagcloud</li>
+<li>archive</li>
+<li>recent_posts</li>
+<li>about_me</li>
+<li>calendar</li>
+<li>duoshuo_recent_comments</li>
+<li>links</li>
+</ul>
+<p>All of them are enabled by default. You can edit them in <code>widget</code> setting.</p>
+<h2 id="Development">Development</h2>
+<h3 id="Requirements">Requirements</h3>
+<ul>
+<li><a href="http://gruntjs.com/" target="_blank">Grunt</a> 0.4+</li>
+<li>Hexo 2.4+</li>
+</ul>
+<h3 id="Grunt_tasks">Grunt tasks</h3>
+<ul>
+<li><strong>default</strong> - Download <a href="http://fancyapps.com/fancybox/" target="_blank">Fancybox</a> and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>.</li>
+<li><strong>fontawesome</strong> - Only download <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>.</li>
+<li><strong>fancybox</strong> - Only download <a href="http://fancyapps.com/fancybox/" target="_blank">Fancybox</a>.</li>
+<li><strong>clean</strong> - Clean temporarily files and downloaded files.</li>
+</ul>
+
       
     </div>
     <footer class="article-footer">
 	  
-	  <a data-url="http://howiefh.github.io/2014/04/19/landscape-f/" data-id="kv3lfy1r6rhs3qo7" data_title="Landscape-F" data_summary="Landscape-F
-A theme based o..." class="article-share-link">Share</a>
-      
-
-      
-        <a href="http://howiefh.github.io/2014/04/19/landscape-f/#ds_thread" class="ds-thread-count article-comment-link" data-thread-key="/hexo-theme-landscape-f/2014/04/19/landscape-f/">暂无评论</a>
-      
+	  <!-- 百度分享 Start -->
+	  <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+	  <!-- 百度分享 End -->
 	  
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-theme-landscape-f/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-theme-landscape-f/tags/theme/">theme</a></li></ul>
@@ -132,76 +330,17 @@ Updated:<time datetime="2014-04-20T12:50:57.000Z" itemprop="dateModified">Apr 20
     </footer>
   </div>
   
-</article>
-
-
-
-<!-- 多说评论框 start -->
-
-<!-- 多说评论框 end -->
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    
-<a href="/hexo-theme-landscape-f/2014/04/19/hello-world/" class="article-date">
-  <time datetime="2014-04-19T15:24:11.000Z" itemprop="datePublished">Apr 19 2014</time>
-</a>
-
-
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/hexo-theme-landscape-f/categories/hexo/">hexo</a>►<a class="article-category-link" href="/hexo-theme-landscape-f/categories/hexo/foo/">foo</a>►<a class="article-category-link" href="/hexo-theme-landscape-f/categories/hexo/foo/bar/">bar</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/hexo-theme-landscape-f/2014/04/19/hello-world/">Hello World</a>
-    </h1>
+    <a href="/hexo-theme-landscape-f/2014/04/19/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-		
-		<div id="toc" class="toc-article">
-			<h2 class="toc-title"><span>Contents</span></h2>
-		
-			
-		
-		</div>
-		
-        <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-	  
-	  <a data-url="http://howiefh.github.io/2014/04/19/hello-world/" data-id="jjq66w366u3kfn2l" data_title="Hello World" data_summary="Welcome to Hexo! This is yo..." class="article-share-link">Share</a>
-      
-
-      
-        <a href="http://howiefh.github.io/2014/04/19/hello-world/#ds_thread" class="ds-thread-count article-comment-link" data-thread-key="/hexo-theme-landscape-f/2014/04/19/hello-world/">暂无评论</a>
-      
-	  
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-theme-landscape-f/tags/bar/">bar</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-theme-landscape-f/tags/foo/">foo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-theme-landscape-f/tags/hexo/">hexo</a></li></ul>
-
-	  
-<span>
-Updated:<time datetime="2014-04-19T15:33:24.000Z" itemprop="dateModified">Apr 19 2014</time>
-</span>
-
-
-    </footer>
-  </div>
   
 </article>
 
@@ -209,13 +348,21 @@ Updated:<time datetime="2014-04-19T15:33:24.000Z" itemprop="dateModified">Apr 19
 
 <!-- 多说评论框 start -->
 
-<!-- 多说评论框 end -->
+<section id="comments">
+  <div class="ds-thread"  data-thread-key="/hexo-theme-landscape-f/2014/04/19/landscape-f/" data-title="Landscape-F" data-url="http://howiefh.github.io/2014/04/19/landscape-f/" id="ds_thread">
+    <noscript>Please enable JavaScript to view the <a href="//duoshuo.com/?ref_noscript">comments powered by duoshuo.</a></noscript>
+  </div>
+</section>
 
-  
-  
+<!-- 多说评论框 end -->
 </section>
         
           
+  <div id="toc" class="toc-aside">
+  <h2 class="toc-title">Contents</h2>
+  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Landscape-F"><span class="toc-number">1.</span> <span class="toc-text">Landscape-F</span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Installation"><span class="toc-number">1.1.</span> <span class="toc-text">Installation</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Install"><span class="toc-number">1.1.1.</span> <span class="toc-text">Install</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Enable"><span class="toc-number">1.1.2.</span> <span class="toc-text">Enable</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Update"><span class="toc-number">1.1.3.</span> <span class="toc-text">Update</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#Configuration"><span class="toc-number">1.2.</span> <span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Features"><span class="toc-number">1.3.</span> <span class="toc-text">Features</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Fancybox"><span class="toc-number">1.3.1.</span> <span class="toc-text">Fancybox</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Sidebar"><span class="toc-number">1.3.2.</span> <span class="toc-text">Sidebar</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#Development"><span class="toc-number">1.4.</span> <span class="toc-text">Development</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Requirements"><span class="toc-number">1.4.1.</span> <span class="toc-text">Requirements</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Grunt_tasks"><span class="toc-number">1.4.2.</span> <span class="toc-text">Grunt tasks</span></a></li></ol>
+  </div>
+
 <aside id="sidebar">
 
   
@@ -496,6 +643,8 @@ new LGY_calendar('g-calendar');
 
 <!-- 百度分享 start -->
 
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","douban","bdysc","sqq","qq","hi","baidu","huaban","youdao","sdo","mail","xg","diandian","fx","copy","print"],"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
 <!-- 百度分享 end -->
 
 <!--
@@ -517,6 +666,11 @@ new LGY_calendar('g-calendar');
 	<script src="/hexo-theme-landscape-f/js/gotop.js"></script>
 	-->
 
+
+	<a class="icon-toc-toggle" href="javascript:void(0)" title="文章目录"></a>
+	<!--
+	<script src="/hexo-theme-landscape-f/js/toc_aside_toggle.js"></script>
+	-->
 
 </div>
 <script type="text/javascript" src="/hexo-theme-landscape-f/js/toc_aside_toggle.js"></script>

@@ -2,8 +2,8 @@
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
-github: https://github.com/howiefh
+#rss: /atom.xml
+#github: https://github.com/howiefh
 
 # Content
 excerpt_link: Read More
@@ -13,22 +13,22 @@ fancybox: true
 sidebar: right
 widgets:
 - about_me
+- calendar
 - category
 - tag
-- tagcloud
+  #- tagcloud
 - archive
-- calendar
 - recent_posts
-- duoshuo_recent_comments
+  #- duoshuo_recent_comments
 - links
 
 # Miscellaneous
-google_analytics:
+#google_analytics:
 favicon: /favicon.ico
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
+#twitter:
+#google_plus:
+#fb_admins:
+#fb_app_id:
 
 # Toc
 toc:
@@ -38,23 +38,24 @@ toc:
 go_top: true
 
 # duoshuo
-duoshuo_shortname:
+duoshuo_shortname: stanleychan1986
 
 # baidu share
-baidushare: true
+#baidushare: true
 
 # blogroll
 links:
-- name: 404 page
-  link: http://yibo.iyiyun.com/js/yibo404/key/1
+- name: 闷道 
+  link: http://maintao.com
 
 # about me
 about_me:
-  title: ABOUT ME
-  gravatar: a@abc.com
-  avatar: /images/github.jpg
+  title: 关于我
+  avatar: /images/icon.jpg
   texts:
-  - Hi,I'm howiefh.
+    - 码农
+    - 在北京
+    - 金陵人士
 
 # display updated
 display_updated: true
